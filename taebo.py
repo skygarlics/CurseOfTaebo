@@ -222,7 +222,7 @@ joHyeRyun.body_shape = "완벽"
 
 wooJiIn.yell("그렇죠!")
 
-taebo.efficacy(25) == treadmill.efficacy(60)
+taebo.efficacy(25) is treadmill.efficacy(60)
 taebo.push_instance(you, minute=25)
 
 for idx in range(3):
